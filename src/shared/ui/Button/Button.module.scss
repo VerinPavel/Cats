@@ -1,0 +1,21 @@
+.button {
+  width: fit-content;
+  height: fit-content;
+  padding: 18px 36px;
+  align-self: flex-end;
+
+  background-color: transparent;
+  border: 2px solid #2a2a2a;
+  color: #2a2a2a;
+  border-radius: 24px;
+  font-weight: bold;
+  font-size: 16px;
+
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #d5c4b0;
+    border: 2px solid #d5c4b0;
+  }
+}

@@ -1,0 +1,11 @@
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px;
+}
+
+.fact {
+  background-color: #c0b8a6;
+  border-radius: 12px;
+  min-height: 200px;
+}
